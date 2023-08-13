@@ -4,7 +4,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  outline: 2px solid red;
 }
 
 body {
@@ -188,9 +187,9 @@ small {
 
   .bg-mobile {
     display: block;
-    margin: 0 -40px 0 -2px;
-    width: 100%;
-    max-width: 600px;
+    margin: 0 0 0 -37px;
+/*     width: 100%;
+    max-width: 600px; */
   }
 
   h1 {
