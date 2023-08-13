@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  outline: 2px solid red;
 }
 
 body {
@@ -187,9 +188,9 @@ small {
 
   .bg-mobile {
     display: block;
-    margin: 0 -40px 0 -44px;
-    width: 600px;
-    max-width: 700px;
+    margin: 0 -40px 0 -2px;
+    width: 100%;
+    max-width: 600px;
   }
 
   h1 {
@@ -203,10 +204,10 @@ small {
 
   p{
     text-align: center;
-    position: relative;
     top: 30px;
     position: relative;
-    left: 0;
+    width: 269px;
+    left: 11px;
   }
 
   form{
