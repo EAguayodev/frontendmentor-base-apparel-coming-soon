@@ -8,6 +8,7 @@ form.addEventListener('submit', e => {
 
   if (!validateEmail(emailVal)) {
       form.classList.add('error');
+      form.classList.add('icon-error');
       form.classList.remove('success');
   } else {
       form.classList.remove('error');
