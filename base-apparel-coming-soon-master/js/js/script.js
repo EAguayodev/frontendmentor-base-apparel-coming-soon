@@ -1,6 +1,6 @@
 const form = document.getElementById('form');
 const email = document.getElementById('email');
-document.getElementById('email').style.border = '1px solid red';
+document.getElementById('email').style.border = '1px solid hsl(0, 74%, 74%)';
 form.addEventListener('submit', e => {
   e.preventDefault();
 
