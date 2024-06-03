@@ -6,6 +6,16 @@
   padding: 0;
 }
 
+:root{
+  /* Primary */
+
+--Desaturated-Red: hsl(0, 36%, 70%);
+--Soft-Red: hsl(0, 93%, 68%);
+/* Neutral */
+
+--Dark-Grayish-Red: hsl(0, 6%, 24%);
+}
+
 body {
   background-image: url("../images/bg-pattern-desktop.svg");
   background-size: cover;
@@ -98,7 +108,7 @@ input::placeholder {
   color: hsl(0, 36%, 70%);
 }
 
-form input.error {
+/* form input.error {
   border: 2px solid hsl(0, 74%, 74%);
 }
 
@@ -108,7 +118,7 @@ form.error .error-icon {
 
 form.error small{
   display: block;
-}
+} */
 
 button {
   background-image: Linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
@@ -129,18 +139,16 @@ button:hover {
 }
 
 .error-icon {
-  visibility: hidden;
+  display: none;
   position: absolute;
   right: 110px;
   top: 15px;
 }
 
-small {
-  color: hsl(0, 74%, 74%);
-  visibility: hidden;
+.error-text {
   position: relative;
   top: 5px;
-  left: 0px;
+  left: 20px;
 }
 
 .left {
